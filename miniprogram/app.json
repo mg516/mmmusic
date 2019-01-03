@@ -1,0 +1,33 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云音乐 QuickMusic",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#C0C0C0",
+    "selectedColor": "#F45D5D",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "/images/music_on.png",
+        "iconPath": "/images/music_off.png",
+        "pagePath": "pages/index/index",
+        "text": "播放"
+      },
+      {
+        "selectedIconPath": "/images/user_on.png",
+        "iconPath": "/images/user_off.png",
+        "pagePath": "pages/user/user",
+        "text": "账号"
+      }
+    ]
+  }
+}
